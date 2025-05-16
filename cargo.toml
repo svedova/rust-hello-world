@@ -1,0 +1,10 @@
+[package]
+name = "simple-web-server"
+version = "0.1.0"
+
+[[bin]]
+name = "simple-web-server"
+path = "main.rs"
+
+[dependencies]
+time = "0.1"
