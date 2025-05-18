@@ -28,9 +28,11 @@ This is a simple "Hello, World!" project written in Rust. It serves as a basic e
    Hello, World!
    ```
 
-## Project Structure
+## Notes
 
-- `src/main.rs`: The main entry point of the application.
+- Make sure the server listens on the PORT environment variable
+- The Rust version is handled in `mise.toml`. This will also tell Stormkit to install Rust on the system.
+- The server is designed to terminate after processing the first request. This behavior is a known limitation but does not impact functionality, as Stormkit effectively manages this scenario. Note that this is an example project intended for demonstration purposes.
 
 ## ⚡️ Deployment with Stormkit
 
